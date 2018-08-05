@@ -1,0 +1,205 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/* HEADER */
+#logo {
+	font-size: 2.5rem;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	font-family: 'Eczar', serif;
+}
+.display-4 {
+	font-size: 20rem;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	font-family: 'Eczar', serif;
+}
+#logo img {
+	height: 40px;
+}
+.view {
+    background: url("../images/banner.jpg")no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #2E2E2E;
+}
+#banner h1 {
+	margin-top: 25%;
+}
+#banner h2:nth-child(1) {
+	position: absolute;
+	top: 25%;
+}
+#banner h2:nth-child(2) {
+	position: absolute;
+	top: 21%;
+	left: 29%;
+}
+
+/* ABOUT SECTION */
+#about h2,
+#about p {
+	visibility: visible;
+	animation-name: fadeIn; 
+	animation-delay: 0.2s;
+}
+/* SKILLS SECTION */
+#skill-section {
+	background: url("../images/sample.jpg")no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.progress {
+	height: 5px;
+	background-color: lightgrey;
+}
+.progress-bar {
+	height: 5px;
+	background-color: #2E2E2E;
+}
+#skills {
+	visibility: visible;
+	animation-name: fadeIn;
+	animation-delay: 0.4s;
+	animation-duration: 2s;
+}
+
+/* PROJECTS SECTION */
+main .container-fluid,
+#project {
+	background-color: lightgrey;
+}
+#oasis div .card-body,
+#bingo div .card-body,
+#neumatico div .card-body {
+	margin-top: 80px;
+}
+#oasis,
+#bingo,
+#neumatico {
+	visibility: visible;
+	animation-delay: 0.4s;
+	animation-duration: 3s;
+}
+
+
+/* CONTACT SECTION */
+#portfolio-pic {
+	border-radius: 100%;
+}
+#contact .card {
+	box-shadow: none;
+}
+#back-to-top {
+	position: fixed;
+	right: 2%;
+	bottom: 7%;
+}
+#back-to-top a {
+	color: grey;
+	z-index: 99999;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+    /* HEADER */
+    .navbar {
+        background-color: #2E2E2E;
+    }
+    #banner h2:nth-child(1) {
+    	position: absolute;
+    	top: 15%;
+    	left: 10%;
+    	font-size: 16em;
+    }
+    #banner h2:nth-child(2) {
+    	position: absolute;
+    	top: 12%;
+    	left: 42%;
+    	font-size: 16em;
+    }
+    #banner h1 {
+    	position: absolute;
+    	left: 50%;
+    	transform: translateX(-50%);
+    	padding: 15px;
+    }
+    #banner h5 {
+    	position: absolute;
+    	left: 50%;
+    	transform: translateX(-50%);
+    	top: 70%;
+    	padding: 15px;
+    }
+
+    /* PROJECTS */
+    #oasis div .card-body,
+	#bingo div .card-body,
+	#neumatico div .card-body {
+		margin-top: 0px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	/* HEADER */
+	#banner h2:nth-child(1) {
+    	position: absolute;
+    	top: 20%;
+    	left: 5%;
+    	font-size: 22em;
+    }
+    #banner h2:nth-child(2) {
+    	position: absolute;
+    	top: 17%;
+    	left: 30%;
+    	font-size: 22em;
+    }
+    #banner h1 {
+    	position: absolute;
+    	left: 30%;
+    	transform: translateX(-50%);
+    	padding: 15px;
+    }
+    #banner h5 {
+    	position: absolute;
+    	left: 35.5%;
+    	transform: translateX(-50%);
+    	top: 65%;
+    	padding: 15px;
+    }
+
+    /* PROJECTS */
+    #oasis div .card-body,
+	#bingo div .card-body,
+	#neumatico div .card-body {
+		margin-top: 0px;
+	}
+}
+@media (min-width: 992px) {
+	/* HEADER */
+    #banner h2:nth-child(2) {
+    	position: absolute;
+    	top: 20%;
+    	left: 20%;
+    	font-size: 22em;
+    }
+	/* PROJECTS */
+    #oasis div .card-body,
+	#bingo div .card-body,
+	#neumatico div .card-body {
+		margin-top: 0px;
+	}
+}
+@media (min-width: 1200px) {
+    /* PROJECTS */
+	#oasis div .card-body,
+	#bingo div .card-body,
+	#neumatico div .card-body {
+		margin-top: 80px;
+	}
+}
