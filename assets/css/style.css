@@ -202,4 +202,10 @@ main .container-fluid,
 	#neumatico div .card-body {
 		margin-top: 80px;
 	}
+    /* HEADER */
+    #banner h2:nth-child(2) {
+        position: absolute;
+        top: 20%;
+        left: 29%;
+    }
 }
