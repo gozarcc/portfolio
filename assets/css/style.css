@@ -513,12 +513,12 @@ main .container-fluid,
     }
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
 	/* HEADER */
     #banner h2:nth-child(2) {
     	position: absolute;
     	top: 20%;
-    	left: 15%;
+    	left: 18% !important;
     	font-size: 22em;
     }
 	/* PROJECTS */
@@ -528,15 +528,15 @@ main .container-fluid,
 	#schuittportal div .card-body {
 		margin-top: 0px;
 	}
-}
+}*/
 @media (min-width: 1200px) {
     /* PROJECTS */
-	#oasis div .card-body,
-	#bingo div .card-body,
+    #oasis div .card-body,
+    #bingo div .card-body,
     #neumatico div .card-body,
-	#schuittportal div .card-body {
-		margin-top: 80px;
-	}
+    #schuittportal div .card-body {
+        margin-top: 80px;
+    }
     /* HEADER */
     #banner h2:nth-child(2) {
         position: absolute;
@@ -544,3 +544,25 @@ main .container-fluid,
         left: 29%;
     }
 }
+
+@media (min-width: 1600px) and (min-height: 900px) {
+    /* HEADER */
+    #banner h2:nth-child(2) {
+        position: absolute;
+        top: 19%;
+        left: 25% !important;
+        font-size: 22em;
+    }
+    /* PROJECTS */
+    #oasis div .card-body {
+        margin-top: 23px !important;
+    }
+    #bingo div .card-body {
+        margin-top: 27px !important;
+    }
+    #neumatico div .card-body {
+        margin-top: 40px !important;
+    }
+    #schuittportal div .card-body {
+        margin-top: 35px !important;
+    }
