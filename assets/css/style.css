@@ -518,7 +518,7 @@ main .container-fluid,
     #banner h2:nth-child(2) {
     	position: absolute;
     	top: 20%;
-    	left: 20%;
+    	left: 15%;
     	font-size: 22em;
     }
 	/* PROJECTS */
