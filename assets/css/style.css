@@ -461,7 +461,7 @@ main .container-fluid,
 
     /* PROJECTS */
     #oasis .col-12:nth-child(2) {
-        margin-top: -75px;
+        margin-top: -70px;
     }
     #bingo .col-12:nth-child(1) {
         margin-top: -65px;
@@ -493,8 +493,8 @@ main .container-fluid,
     #banner h2:nth-child(2) {
         position: absolute;
         top: 18% !important;
-        left: 22% !important;
-        transform: translateX(-50%);
+        left: 30% !important;
+        transform: translateX(-40%);
         font-size: 22em;
     }
 
@@ -513,22 +513,22 @@ main .container-fluid,
     }
 }
 
-/*@media (min-width: 992px) {
-	/* HEADER */
+@media (min-width: 992px) {
+	 /*HEADER */
     #banner h2:nth-child(2) {
     	position: absolute;
     	top: 20%;
     	left: 18% !important;
     	font-size: 22em;
     }
-	/* PROJECTS */
+	 /*PROJECTS */
     #oasis div .card-body,
 	#bingo div .card-body,
     #neumatico div .card-body,
 	#schuittportal div .card-body {
 		margin-top: 0px;
 	}
-}*/
+}
 @media (min-width: 1200px) {
     /* PROJECTS */
     #oasis div .card-body,
