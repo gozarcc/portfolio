@@ -399,7 +399,7 @@ main .container-fluid,
     }
     #banner h5 {
     	position: absolute;
-    	left: 35.5%;
+    	left: 29.5%;
     	transform: translateX(-50%);
     	top: 65%;
     	padding: 15px;
@@ -498,7 +498,7 @@ main .container-fluid,
     #banner h2:nth-child(2) {
     	position: absolute;
     	top: 20%;
-    	left: 18% !important;
+    	left: 21% !important;
     	font-size: 22em;
     }
 	 /*PROJECTS */
