@@ -438,7 +438,7 @@ main .container-fluid,
     }
     #banner h5 {
         position: absolute;
-        left: 29%;
+        left: 25%;
         transform: translateX(-50%);
         top: 71%;
         padding: 15px;
@@ -546,3 +546,20 @@ main .container-fluid,
     #schuittportal div .card-body {
         margin-top: 35px !important;
     }
+}
+
+@media (min-width: 1602px) {
+    /* PROJECTS */
+    #oasis div .card-body,
+    #bingo div .card-body,
+    #neumatico div .card-body,
+    #schuittportal div .card-body {
+        margin-top: 10% !important;
+    }
+    /* HEADER */
+    #banner h2:nth-child(2) {
+        position: absolute;
+        top: 20% !important;
+        left: 30% !important;
+    }
+}
